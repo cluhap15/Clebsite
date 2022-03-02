@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clebsite</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="logo.png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i> 
+        <ul>
+        <li><a href="index.html">HOME</a></li> 
+          <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Recommended-websites.html">Recommended WebDev Websites to Learn On</a></li>  
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Favorite games of clu(In Roblox)</h1>
+  </section>
+
+<!-- Games -->
+
+<section class="games"> 
+    <h1>Cluhap, the developer of this website, also plays games, these are his favorite games.</h1>
+    <br>
+    <p>1. Roblox <br> 2. Minecraft</p>
+  
+  
+    <div class="row">
+      <div class="games-col1">
+        <h3>Now, lets talk about programming.</h3>
+        <p>Hey there, it's the developer, clu, have you ever thought about programming? Because I have, since I was 8.<p>
+  
+      </div>
+      <div class="games-col1">
+        <h3>Let's talk about development</h3>
+        <p>If you have been programming at young age, thats good, except you only program at a young age every 1 week or 2<p>
+      </div>
+    </div>
+    <div class="games-col1">
+      <h3>Wanna find things about clu? Read below!</h3>
+      <p>Hey there, it's the developer, clu, have you ever thought about making websites? Because I have, since I was 8. I also like programming. I do it every 1-2 days. I also like playing games sometimes, it entertains me when I'm bored, but I usually listen to music when bored.<p>
+  
+    </div>
+  </section>
+  
+<!-- facilities -->
+
+<section class="facilities">
+    <h1>Off topic</h1>
+    <p>Off topic because the developer of this website has no more ideas lol</p>
+  
+  
+  
+  
+  <div class="row">
+    <div class="facilities-col">
+      <img src="basketball.png">
+      <h3>Take a look of this basketball place.</h3>
+    </div>
+    <div class="facilities-col">
+      <img src="library.png">
+      <h3>A library.</h3>
+    </div>
+    <div class="facilities-col">
+      <img src="cafeteria.png">
+      <h3>Food place. I took it from google and it said "cafeteria" lol. Doesnt look like one.</h3>
+    </div>
+    </div>
+  
+     
+  
+  </section>
+
+
+
+
+
+
+
+<!-- ----- Footer ----- -->
+<section class="footer">
+  <h4>About this website</h4>
+  <p>This website is made by cluhap. This website used to be a <br> submit button test until clu decided to make this as a real website. Now it turns out to looks like this.</p>
+  <div class="icons">
+    <i class="fab fa-discord"></i>
+    <i class="fab fa-twitter"></i>
+  </div>
+  <p>Made with <i class="far fa-heart"></i> visual studio code and made by cluhap </p>
+</section>
+
+ <!------Javascript for Toggle Menu-----     -->
+   <script>
+     var navLinks = document.getElementById("navLinks")
+
+     function showMenu(){
+       navLinks.style.right = "0"
+     }
+     function hideMenu(){
+       navLinks.style.right = "-200px"
+     }
+
+
+   </script>
+
+</body>
+</html>
